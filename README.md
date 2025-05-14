@@ -1,42 +1,42 @@
-# 🧾 Jira Issue Fetcher
+This repository contains interactive sales dashboard visualizations built using Power BI / Tableau, designed to present sales performance metrics across various dimensions such as time, category, and region.
 
-A simple Python script to retrieve Jira issues using the Jira Cloud REST API. It demonstrates how to authenticate with Jira using email and API token, perform JQL-based issue queries, and display key issue details such as status, assignee, and priority.
+🔍 Overview
+These dashboards provide a comprehensive analysis of:
 
-## 📌 Features
+Total Sales, Profit, and Quantity over the year
 
-- Connects securely to your Jira Cloud instance using environment variables
-- Queries specific issues via JQL
-- Fetches fields like:
-  - Issue Key
-  - Status
-  - Assignee
-  - Priority
-- Prints formatted output to the console
+Sales & Profit by Subcategory
 
-## 🧰 Technologies Used
+Monthly Sales Trends
 
-- Python 3.x
-- `requests` for HTTP calls
-- `python-dotenv` to manage environment variables securely
-- Jira Cloud REST API v3
+Sales Performance by Segment and Region
 
-## 📂 Setup Instructions
+Order Logs for Drill-down Insights
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/jira-issue-fetcher.git
-cd jira-issue-fetcher
-pip install requests python-dotenv
-EMAIL=your-email@example.com
-API_TOKEN=your-jira-api-token
-DOMAIN=your-domain.atlassian.net
-python fetch_issues.py
+Sales vs. Profit over Time
 
+Top Performing Categories and Subcategories
 
-Ticket ID: SCRUM-2
-Status: In Progress
-Assignee: John Doe
-Priority: High
-----------------------------------------
+💡 Key Features
+Year-over-year comparison with visual indicators for highest and lowest performing months
 
+Clear segmentation of sales data by category, customer segment, and region
 
+Interactive charts and bar graphs for easy interpretation of business performance
+
+Designed for business stakeholders to derive actionable insights at a glance
+
+🛠 Tools Used
+Power BI / Tableau
+
+Microsoft Excel (for data preprocessing)
+
+📂 Files Included
+Sales Dashboard.png – Annual Sales and Profit Dashboard
+
+Sales Performance 1.png – Segment-wise Sales Performance and Order Log
+
+Sales Performance 2.png – Category-wise Sales Trends
+
+📈 Use Case
+Ideal for business analysts and decision-makers looking to monitor and improve sales strategy through data-driven insights.
